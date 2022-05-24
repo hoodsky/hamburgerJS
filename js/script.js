@@ -4,8 +4,8 @@ navMenu.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-const checkBox = document.querySelector('.checkbox');
-const checkBoxLabel = document.querySelector('.checkbox-label');
+var checkBox = document.querySelector('.checkbox');
+var checkBoxLabel = document.querySelector('.checkbox-label');
 
 checkBox.addEventListener('click', () => {
     checkBoxLabel.classList.toggle('active');
